@@ -1,3 +1,9 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
 header {
   border-bottom: 4px solid blue;
   background-color: rgb(224, 229, 253);
