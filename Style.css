@@ -7,15 +7,34 @@ body {
 }
 
 header {
-  border-bottom: 4px solid blue;
-  background-color: rgb(224, 229, 253);
+  border-bottom: 4px solid rgb(0, 0, 255);
+  background-color: rgb(250, 250, 250);
 }
 
 .accelerator {
-font-size: larger;
+font-size: xx-large;
 font-weight: bolder;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header, p {
   font-weight: bold;
+}
+
+nav {
+  font-size: medium;
+}
+
+@media (min-width: 600px)  {
+ body {
+    
+  }
+}
+
+.backbase {
+  font-size: x-large;
+}
+
+a :hover {
+ 
 }
