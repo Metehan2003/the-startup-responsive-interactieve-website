@@ -35,6 +35,6 @@ nav {
   font-size: x-large;
 }
 
-a :hover {
- 
+.select {
+  width: 8vw;
 }
