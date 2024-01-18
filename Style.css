@@ -79,50 +79,55 @@ top: 36.5%;
 .stream {
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
-  
+  font-weight: bold;
   
 }
 
 .scim {
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
-  
+  font-weight: bold;
 }
 
 .mastercard {
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
-  animation-duration: 5s;
- transition: cubic-bezier();
+  font-weight: bold;
 }
 
 .backbase {
   font-size: medium;
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
+  font-weight: bold;
 }
 
 .goldensample {
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
+  font-weight: bold;
 }
 
 .event {
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
+  font-weight: bold;
 }
 
 .golden {
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
+  font-weight: bold;
 }
 
 .collector {
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
+  font-weight: bold;
 }
 
 .github {
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
+  font-weight: bold;
 }
