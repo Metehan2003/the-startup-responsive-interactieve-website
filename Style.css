@@ -25,9 +25,17 @@ nav {
   font-size: medium;
 }
 
-@media (min-width: 600px)  {
- body {
-    
+@media (max-width: 480px)  {
+ .mastercard {
+    display: none;
+  }
+
+  .event {
+    display: none;
+  }
+
+  .github {
+    display: none;
   }
 }
 
@@ -76,17 +84,45 @@ top: 36.5%;
 }
 
 .scim {
-
+  border: 3px solid rgb(223, 223, 255) ;
+  height: 30vh;
   
 }
 
 .mastercard {
-  
- 
+  border: 3px solid rgb(223, 223, 255) ;
+  height: 30vh;
+  animation-duration: 5s;
+ transition: cubic-bezier();
 }
 
 .backbase {
   font-size: medium;
-  
+  border: 3px solid rgb(223, 223, 255) ;
+  height: 30vh;
 }
 
+.goldensample {
+  border: 3px solid rgb(223, 223, 255) ;
+  height: 30vh;
+}
+
+.event {
+  border: 3px solid rgb(223, 223, 255) ;
+  height: 30vh;
+}
+
+.golden {
+  border: 3px solid rgb(223, 223, 255) ;
+  height: 30vh;
+}
+
+.collector {
+  border: 3px solid rgb(223, 223, 255) ;
+  height: 30vh;
+}
+
+.github {
+  border: 3px solid rgb(223, 223, 255) ;
+  height: 30vh;
+}
