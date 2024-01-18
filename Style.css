@@ -1,7 +1,7 @@
 body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 2fr 2fr 2fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr;
   margin: 0;
   
 }
@@ -37,6 +37,7 @@ nav {
 
 .select {
   width: 9vw;
+  margin-top: 10px;
 }
 
 .updated {
@@ -62,12 +63,15 @@ top: 36.5%;
 .repositories {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 3%;
 }
 
 
 .stream {
+  border: 3px solid rgb(223, 223, 255) ;
+  height: 30vh;
+  
   
 }
 
@@ -83,4 +87,6 @@ top: 36.5%;
 
 .backbase {
   font-size: medium;
+  
 }
+
