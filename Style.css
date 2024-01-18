@@ -46,3 +46,15 @@ nav {
 .sort {
   border-top: 2px solid gray;
 }
+
+.results {
+position: absolute;
+top: 34.5%;
+margin-left: 80%;
+}
+
+.add {
+position: absolute;
+margin-left: 81%;
+top: 36.5%;
+}
