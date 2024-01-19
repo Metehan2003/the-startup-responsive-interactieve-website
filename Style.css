@@ -82,19 +82,21 @@ top: 36.5%;
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
   font-weight: bold;
-  
+  padding: 1em;
 }
 
 .scim {
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
   font-weight: bold;
+  padding: 1em;
 }
 
 .mastercard {
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
   font-weight: bold;
+  padding: 1em;
 }
 
 .backbase {
@@ -102,34 +104,40 @@ top: 36.5%;
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
   font-weight: bold;
+  padding: 1em;
 }
 
 .goldensample {
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
   font-weight: bold;
+  padding: 1em;
 }
 
 .event {
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
   font-weight: bold;
+  padding: 1em;
 }
 
 .golden {
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
   font-weight: bold;
+  padding: 1em;
 }
 
 .collector {
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
   font-weight: bold;
+  padding: 1em;
 }
 
 .github {
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
   font-weight: bold;
+  padding: 1em;
 }
