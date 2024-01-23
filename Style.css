@@ -8,7 +8,7 @@ body {
 
 header {
   border-bottom: 4px solid rgb(0, 0, 255);
-  background-color: rgba(236, 236, 236, 0.803);
+  background-color: rgba(255, 255, 255, 0.803);
   margin: 1em;
 }
 
@@ -26,17 +26,56 @@ nav {
   font-size: medium;
 }
 
-@media (max-width: 480px)  {
+/* @media (min-width: 600px)  {
  .mastercard {
-    display: none;
+    flex-direction: column;
   }
 
   .event {
-    display: none;
+    flex-direction: column;
   }
 
   .github {
-    display: none;
+    flex-direction: column;
+  }
+} */
+
+@media (max-width: 480px) {
+.repositories {
+  flex-direction: column;
+  
+}
+}
+
+@media (min-width: 425px) {
+  .mastercard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .github {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .select {
+    width: screen;
+  }
+
+  .results {
+
+  }
+
+  .add {
+    
   }
 }
 
