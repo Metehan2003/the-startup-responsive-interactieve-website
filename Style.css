@@ -1,14 +1,17 @@
+*{
+  font-family: "Inter", "sans-serif";
+}
+
 body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2fr 2fr 2fr 2fr;
   margin: 0;
-  
 }
 
 header {
   border-bottom: 4px solid rgb(0, 0, 255);
-  background-color: rgba(255, 255, 255, 0.803);
+  background-color: #f3f6f9;
   margin: 1em;
   
 }
@@ -16,7 +19,6 @@ header {
 .accelerator {
 font-size: xx-large;
 font-weight: bolder;
-font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header, p {
@@ -35,15 +37,19 @@ nav {
   width: 9vw;
   margin-top: 10px;
   height: 5vh;
+  margin-left: 2%;
 }
 
 .updated {
   width: 9vw;
+  height: 5vh;
+  margin-left: 2%;
 }
 
 .sort {
   border-top: 2px solid gray;
   margin: 1em;
+  margin-left: 2%;
 }
 
 .results {
@@ -101,7 +107,7 @@ margin: 5px; */
 }
 
 .backbase {
-  font-size: large;
+  font-size: xx-large;
   border: 3px solid rgb(223, 223, 255) ;
   height: 30vh;
   font-weight: bold;
@@ -178,5 +184,5 @@ cursor: pointer;
 }
 
 footer {
-  background-color: rgb(240, 240, 240);
+  background-color: #f3f6f9;
 }
