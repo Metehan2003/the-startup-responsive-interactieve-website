@@ -56,6 +56,7 @@ nav {
 position: absolute;
 top: 34.5%;
 margin-left: 80%;
+margin-top: 20%;
 }
 
 .add {
@@ -67,6 +68,7 @@ background-color: blue;
 width: 8vw;
 border-color: blue;
 height: 5vh;
+margin-top: 20%;
 }
 
 .repositories {
@@ -185,4 +187,29 @@ cursor: pointer;
 
 footer {
   background-color: #f3f6f9;
+}
+
+@media (max-width: 430px) {
+
+.add {
+  margin-top: 35%;
+  left: 10%;
+}
+
+.results {
+  margin-top: 35%;
+  right: 10%;
+}
+
+.select {
+  width: 29vw;
+}
+
+.all {
+  width: 10vw;
+}
+
+.updated {
+width:29vw ;
+}
 }
